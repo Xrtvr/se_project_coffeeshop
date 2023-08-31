@@ -152,6 +152,7 @@
   position: relative;
   max-width: 480px;
   max-height: 273px;
+  border: none;
 }
 
 .recipes__video-caption {

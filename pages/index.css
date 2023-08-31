@@ -124,7 +124,7 @@
   max-width: 438px;
   margin-top: 24px;
   margin-left: 80px;
-  color:#ffffff;
+  color: #ffffff;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -135,8 +135,10 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
-  margin-bottom: 215px;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+  list-style: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -158,4 +160,3 @@
   justify-content: space-between;
   box-sizing: border-box;
 }
-

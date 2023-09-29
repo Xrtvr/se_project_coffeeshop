@@ -20,10 +20,17 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer__list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-end;
 }
 
 .footer__list-item {
@@ -32,22 +39,35 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
+  padding-top: 20px;
+}
+.footer__list-item:last-of-type {
+  padding-top: 16px;
 }
 
 .footer__social-icon {
+  color: white;
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
 
 .footer__social-link {
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
 }
-
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
 .footer__copyright {
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  box-sizing: border-box;
   margin-top: 0;
   padding-left: 80px;
   padding-top: 108px;

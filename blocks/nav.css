@@ -1,7 +1,7 @@
 .nav__logo {
   position: relative;
-  left: 30px;
-  top: 30px;
+  left: -50px;
+  top: 0;
   max-width: 105px;
   max-height: 39px;
 }
@@ -20,12 +20,12 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
 }
 
 .nav__link:hover {
-  color: #2F80ED;
+  color: #2f80ed;
 }

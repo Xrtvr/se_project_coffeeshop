@@ -33,7 +33,7 @@
 
 .about__content {
   max-width: 660px;
-  margin-top: 9px;
+  margin-top: 19px;
 }
 
 .about__paragraph {
@@ -45,7 +45,7 @@
   line-height: 30px;
 }
 
-.about__paragraph--not-first {
+.about__paragraph:not(:first-of-type) {
   margin-top: 20px;
 }
 

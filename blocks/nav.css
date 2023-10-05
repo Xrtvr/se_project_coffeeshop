@@ -11,9 +11,8 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  position: absolute;
   top: 30px;
   right: 80px;
   column-gap: 20px;
@@ -22,7 +21,7 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 

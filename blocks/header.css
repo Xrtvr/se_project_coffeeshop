@@ -66,4 +66,6 @@
 
 .header__paragraph {
   margin: 0;
+  color: #838383;
+  font-weight: 500;
 }

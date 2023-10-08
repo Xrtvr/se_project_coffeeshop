@@ -1,3 +1,9 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .nav__logo {
   position: relative;
   left: -50px;
@@ -13,8 +19,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  top: 30px;
-  right: 80px;
   column-gap: 20px;
 }
 
